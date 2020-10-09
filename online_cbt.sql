@@ -133,7 +133,7 @@ CREATE TABLE `ocbt_admin_tbl` (
 --
 
 INSERT INTO `ocbt_admin_tbl` (`user_id`, `user_name`, `password`, `email`, `level`, `last_login`) VALUES
-(1, 'administrator', '$2y$10$FTvDLAp/0np8N4NwM8Is2eHcCoRXgg7GMbX9GNO4W0gW/65mLrrhe', 'administrator_email@yahoo.co.uk', 1, '2018-09-25 00:00:00');
+(1, 'administrator', '$2y$10$eLYQm4NvFYevk1PCy9nOpe09Avfb0NbwG4x4DM7uR75pUuBq8EvUa', 'administrator_email@yahoo.co.uk', 1, '2018-09-25 00:00:00');
 
 -- --------------------------------------------------------
 
