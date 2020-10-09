@@ -1,0 +1,42 @@
+body{
+	font-family: cursive;
+}
+.timer{
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size:3em;
+	color:grey;
+	text-align:center;
+}
+.timer_div{
+	border:2px solid black;
+	border-radius:3px;
+	margin:auto;
+	text-align: center;
+	width:40%;
+}
+@media only screen and (max-width:600px){
+	body{
+		font-family:verdana;
+	}
+	.timer_div{
+	border:2px solid black;
+	border-radius:3px;
+	margin:auto;
+	text-align: center;
+	width:100%;
+}
+.navbar-fixed-left{
+	position:fixed;
+	height: :100%;
+	width:140px;
+	border-radius:0;
+}
+.navbar-fixed-left .navbar-nav>li{
+	float:none;
+	width:130px;
+}
+.navbar-left + .container{
+	padding-left:160px;
+}
+
